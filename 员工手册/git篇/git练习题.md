@@ -19,7 +19,7 @@
 ![img](img/6二人分栈合.jpg )
 7. 二人分队合 先进先出。
 ![img](img/7二人分队合.jpg )
-8. 存版本。
+8. 存版本。*
 ![img](img/8存版本主枝.jpg ) ![img](img/8存版本分枝.jpg )
  &ensp;主支&emsp;&emsp;&ensp;分支
 9. 新枝。
