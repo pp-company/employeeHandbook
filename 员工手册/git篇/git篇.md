@@ -15,7 +15,8 @@
     5. 没用的分支该删就删了 git branch -d 分支名。 git branch -D 分支名是强制删除 尽量别乱用。
     6. 之前被抛弃的commit突然发现有用可以用git reflog找回来。
     7. 将git status 设置成git s，git config --global alias.s status，同理将git commit -m设置成git cm,git config --global alias.cm "commit -am"
-    8. git add -A 把所有的文件全部添加到暂存区
-    9. 永远不要直接在master上 commit写东西，建好你自己的分支 分支名跟你做的目的相关 在你自己的分支上做修改 做好了merge回master
+    8. git add -A 把所有的文件全部添加到暂存区。
+    9. 永远不要直接在master上 commit写东西，建好你自己的分支 分支名跟你做的目的相关 在你自己的分支上做修改 做好了merge回master。
     10. 如果你的分支还没完美到可以merge，但是又遇到了重大问题需要给同事或者老板看看， 参考弃枝模式推上来。
-    11. git commit -m "备注" 一定要写清楚，练习可以随便写，工作要清楚
+    11. git commit -m "备注" 一定要写清楚，练习可以随便写，工作要清楚。
+    12. 改名操作很容易把git弄晕,所以使用git做改名操作的时候最好单独放在一个commit来做改名，即 改名前commit一下，改名后马上又commit一下，甚至多个改名的时候都建议先改一部分commit再改一部分，非硬性要求 自己斟酌。
