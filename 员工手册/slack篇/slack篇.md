@@ -1,4 +1,4 @@
-##<center>slack篇</center>
+﻿##<center>slack篇</center>
 1. 钉（pin）消息，取消钉（unpin）消息。
 ![img](img/pin.jpg )
 ![img](img/unpin.jpg )
@@ -14,4 +14,5 @@
 ![img](img/查看回复消息.jpg )
 8. 可以查看被钉起来的所有内容
 ![img](img/钉起来的内容.jpg )
-4. slack安卓版会提示没有谷歌服务的问题，忽略它，继续使用，正常消息还是能接收的，注意延迟
+9 slack安卓版会提示没有谷歌服务的问题，忽略它，继续使用，正常消息还是能接收的，注意延迟
+10. 老板发在#general里面钉起来的任务，任何人都可以揭榜去挑战。 
