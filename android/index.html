@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="flexible.min.js">
+    </script>
+    <title>主页</title>
+</head>
+<style>
+    /* 初始化 */
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .clearfix:after,
+    .clearfix:before {
+        content: "";
+        display: block;
+        clear: both
+    }
+
+    /* body背景，规定字体 */
+    body {
+        background: url('./img/beijing.png') no-repeat;
+        background-size: cover;
+        color: #0f5000;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+    }
+
+    /* 头部区域 */
+    .indexTop {
+        width: 100%;
+        height: 50px;
+    }
+
+    .indexTop>img {
+        width: 100%;
+    }
+
+    /* 主体 */
+    .container {
+        width: 65%;
+        height: 70%;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        overflow: hidden;
+        padding: 5px
+    }
+
+    .container li {
+        width: 15%;
+        text-align: center;
+        float: left;
+        margin: 15px 45px;
+        padding: 10px;
+        position: relative;
+        overflow: hidden
+    }
+    .imgbox{
+        width:100%;
+        height:100%
+    }
+    .imgbox img{
+        width:70%;
+        height:70%;
+    }
+    .container li .imgbox,.container li .text{
+        margin-top: 20px;
+    }
+
+</style>
+
+<body>
+<!-- 头部 -->
+<div class="indexTop">
+    <img src="./img/top01.png" alt="">
+</div>
+<!-- 主体 -->
+<div class="container">
+    <ul class="clearfix">
+        <a href="#">
+            <li>
+                <div class="imgbox" id='0'><img src="./img/tubiao0007.png" alt=""></div>
+                <div class="text">销售报表</div>
+            </li>
+        </a>
+        <li>
+            <div class="imgbox" id='1'><img src="./img/tubiao0001.png" alt=""></div>
+            <div class="text"><a href="#">工厂环境</a></div>
+        </li>
+        <a href="#">
+            <li>
+                <div class="imgbox" id='2'><img src="./img/tubiao0005.png" alt=""></div>
+                <div class="text">生产监控及修复</div>
+            </li>
+        </a>
+        <a href="#">
+            <li>
+                <div class="imgbox" id='3'><img src="./img/tubiao0006.png" alt=""></div>
+                <div class="text">智能采购</div>
+            </li>
+        </a>
+    </ul>
+    <ul class="clearfix">
+        <a href="#">
+            <li>
+                <div class="imgbox" id='4'><img src="./img/tubiao0002.png" alt=""></div>
+                <div class="text">成品车库</div>
+            </li>
+        </a>
+        <li>
+            <div class="imgbox" id='5'><img src="./img/tubiao0003.png" alt=""></div>
+            <div class="text"><a href="#">车辆定制</a></div>
+        </li>
+        <li>
+            <div class="imgbox" id='6'><img src="./img/tubiao0009.png" alt=""></div>
+            <div class="text"><a href="#">生产过程监控</a></div>
+        </li>
+        <li>
+            <div class="imgbox" id='7'><img src="./img/tubiao0008.png" alt=""></div>
+            <div class="text"><a href="#">人事管理</a></div>
+        </li>
+    </ul>
+
+</div>
+
+<script>
+    document.getElementById('2').onclick = function () {
+        if(window.nativeMethod){
+            nativeMethod.startActivity();
+        }
+    };
+
+</script>
+
+</body>
+
+</html>

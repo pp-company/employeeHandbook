@@ -7,13 +7,22 @@
 6. 严禁使用可以修改历史的git操作。除非有老板明文授权。
 7. 上传录音的时候注意文件大小不要超过100m(录音的时候建议超过80分钟就中断，再继续录音),仓库最大只能存放100G。
 8. 之前被抛弃的commit突然发现有用可以用git reflog找回来。
-9. 将git status 设置成git s，git config --global alias.s status，同理将git commit -m设置成git cm,git config --global alias.cm "commit -am"。
+9. 快捷方式：
+    1. 看状态，将git status 设置成git s
+    命令:git config --global alias.s status
+    2. 将git commit -m设置成git cm
+    命令:git config --global alias.cm "commit -am"
+    git m   merge --no-ff
+    git g   log graph
 10. git add -A 把所有的文件全部添加到暂存区。
 11. git commit -m "备注" 一定要写清楚，练习可以随便写，工作要清楚。
 12. 改名操作很容易把git弄晕,所以使用git做改名操作的时候最好单独放在一个commit来做改名，即 改名前commit一下，改名后马上又commit一下，甚至多个改名的时候都建议先改一部分commit再改一部分，非硬性要求 自己斟酌。
 13. 了解一下[ssh private key](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html),使用谷歌浏览器可以翻译成中文。
 14. 解决每次都要输入密钥[问题](http://www.wechatbus.com/artifice/9.html)
 15. git push 忽略空目录
+16. github如何让别人管理自己的仓库
+![img](img/添加权限1.jpg )
+![img](img/添加权限2.jpg )
 11. git多人合作要点
     1. merge都要带 --no-ff。
     2. 每次开新分支前记得一定先pull一下,push之前先pull，有事没事pull一下。
