@@ -5,15 +5,19 @@
 4. 每个人要有一个github的练习账号,练习公司的[题目](git练习题.md)。
 5. 写完git练习题之后，git练习题途中有什么不懂或者不了解的可以查看git练习题[提示](git练习题提示.md)。
 6. 严禁使用可以修改历史的git操作。除非有老板明文授权。
-7. 上传录音的时候注意文件大小不要超过100m(录音的时候建议超过80分钟就中断，再继续录音),仓库最大只能存放100G。
+7. 上传录音的时候注意文件大小不要超过100m(录音的时候建议超过80分钟就中断，再继续录音,如果不小心超过了，请查看如何减少[文件大小](https://jingyan.baidu.com/article/359911f550cf7757fe03063b.html)),仓库最大只能存放100G。
 8. 之前被抛弃的commit突然发现有用可以用git reflog找回来。
 9. 快捷方式：
     1. 看状态，将git status 设置成git s
     命令:git config --global alias.s status
     2. 将git commit -m设置成git cm
     命令:git config --global alias.cm "commit -am"
-    git m   merge --no-ff
-    git g   log graph
+    3. 将git merge --no-ff设置成git m   
+    命令：git config --global alias.m "merge --no-ff"
+    4. 将log graph设置成git g   
+    命令：git config --global alias.g "log --graph"
+    5. 将switch -c 设置成sc
+    命令:git config --global alias.sc "switch -c"
 10. git add -A 把所有的文件全部添加到暂存区。
 11. git commit -m "备注" 一定要写清楚，练习可以随便写，工作要清楚。
 12. 改名操作很容易把git弄晕,所以使用git做改名操作的时候最好单独放在一个commit来做改名，即 改名前commit一下，改名后马上又commit一下，甚至多个改名的时候都建议先改一部分commit再改一部分，非硬性要求 自己斟酌。
