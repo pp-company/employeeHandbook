@@ -25,9 +25,10 @@
 14. 解决每次都要输入密钥[问题](http://www.wechatbus.com/artifice/9.html)
 15. git push 忽略空目录
 16. github如何让别人管理自己的仓库
+17. 每当你要进行实验或者各种骚操作或者危险操作，就要commit一下，不怕搞砸
 ![img](img/添加权限1.jpg )
 ![img](img/添加权限2.jpg )
-11. git多人合作要点
+18. git多人合作要点
     1. merge都要带 --no-ff。
     2. 每次开新分支前记得一定先pull一下,push之前先pull，有事没事pull一下。
     3. 早merge早脱手 越晚需要手动解决冲突的概率越大。但是当然需要做完整之后才merge。 
