@@ -1,4 +1,6 @@
 ##<center>git篇</center>
+
+0.  **在进行任何git操作的时候确保你IDE里的所有文件都保存了！不然git还在对你上次保存的版本进行操作。最保险的做法是，进行git操作前都统一编译一下代码。或者关闭IDE的所有页面也行（有点过于谨慎）。**
 1. 每个人要申请额外的Bitbucket账号和github账号工作,因为离职的时候要把账号交还给公司的。
 2. 对于没有保密需要的,在github上进行,比如员工手册,有保密需求,就用Bitbucket,比如平时的代码开发,如果不清楚有没有保密需求,直接问老板。
 3. 学习git预计时间为17个小时，上下波动3小时，零基础大概20小时，有一点基础大概14小时，根据自己实际情况学习,学习期间需要掌握的[知识](git总结.md)。
@@ -13,19 +15,21 @@
     2. 将git commit -m设置成git cm
     命令:git config --global alias.cm "commit -am"
     3. 将git merge --no-ff设置成git m   
-    命令：git config --global alias.m "merge --no-ff"
+    命令：git config --global alias.m "merge --no-ff -Xignore-space-change"
     4. 将log graph设置成git g   
     命令：git config --global alias.g "log --graph"
     5. 将switch -c 设置成sc
     命令:git config --global alias.sc "switch -c"
+    6. 将pull 设置成pl
+    命令:git config --global alias.pl ".....................................??"
 10. git add -A 把所有的文件全部添加到暂存区。
 11. git commit -m "备注" 一定要写清楚，练习可以随便写，工作要清楚。
 12. 改名操作很容易把git弄晕,所以使用git做改名操作的时候最好单独放在一个commit来做改名，即 改名前commit一下，改名后马上又commit一下，甚至多个改名的时候都建议先改一部分commit再改一部分，非硬性要求 自己斟酌。
 13. 了解一下[ssh private key](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html),使用谷歌浏览器可以翻译成中文。
 14. 解决每次都要输入密钥[问题](http://www.wechatbus.com/artifice/9.html)
 15. git push 忽略空目录
-16. github如何让别人管理自己的仓库
 17. 每当你要进行实验或者各种骚操作或者危险操作，就要commit一下，不怕搞砸
+16. github如何让别人管理自己的仓库
 ![img](img/添加权限1.jpg )
 ![img](img/添加权限2.jpg )
 18. git多人合作要点
@@ -36,4 +40,20 @@
     5. 除非是刚merge就马上想起来忘了做什么，可以马上重复利用刚才的分支，不然尽量不要重复回收利用之前的分支。
     6. 没用的分支该删就删了 git branch -d 分支名。 git branch -D 分支名是强制删除 尽量别乱用。
     7. **永远不要直接在master上 commit写东西**，建好你自己的分支 分支名跟你做的项目相关，如果没有合作人的话，建议在分支名带上自己名字的缩写，在你自己的分支上做修改 做好了merge回master。所以最好的习惯就是 merge完就马上切到自己的分支，不要临渴掘井等要commit了才去切换分支。
-    8. 如果你的分支还没完美到可以merge，但是又遇到了重大问题需要给同事或者老板看看， 参考弃枝模式（加入链接！！）推上来。
+    8. 如果你的分支还没完美到可以merge，但是又遇到了重大问题需要给同事或者老板看看， 参考弃枝模式（加入链接!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!）推上来。
+19. 多人合作完整流程如下
+    1. 领到新的任务
+    2. 回master
+    3. pull
+    4. git sc 开自己的分支 分支名为自己名字缩写_这个任务的极简描述 分支名不做硬性规定。
+    5. git add -A; git commit -am "想好你第1个小部分先干什么，先写下来" 但是不要按回车
+    6. 去做你的第一件事。养成好习惯，先想好要做什么，写下来，再去做。
+    7. 做完后 执行之前没按回车的commit
+    8. git add -A; git commit -am "想好你第2个小部分先干什么，先写下来" 但是不要按回车……
+    9. 循环5~7 直到把整个任务完成。
+    10. 回master
+    11. pull
+    12. 把你的分支merge回master
+    13. 如果有冲突手动解决冲突
+    14. push
+    15. 再去领新的任务，循环1~15条。
