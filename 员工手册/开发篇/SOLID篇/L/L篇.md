@@ -10,3 +10,4 @@
     4. 代码格式，如果允许null的存在，那么拿到一个变量都得检查一下是不是null
 6. 图解:
 ![img](../img/soli.jpg )
+<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
