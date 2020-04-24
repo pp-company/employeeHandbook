@@ -11,3 +11,4 @@
 命令:git config --global alias.sc "switch -c"
 6. 将pull origin master设置成pl
 命令:git config --global alias.pl "pull origin master"
+<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>

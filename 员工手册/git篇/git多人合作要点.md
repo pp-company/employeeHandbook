@@ -7,3 +7,4 @@
 6. 没用的分支该删就删了 git branch -d 分支名。 git branch -D 分支名是强制删除 尽量别乱用。
 7. **永远不要直接在master上 commit写东西**，建好你自己的分支 分支名跟你做的项目相关，如果没有合作人的话，建议在分支名带上自己名字的缩写，在你自己的分支上做修改 做好了merge回master。所以最好的习惯就是 merge完就马上切到自己的分支，不要临渴掘井等要commit了才去切换分支。
 8. 如果你的分支还没完美到可以merge，但是又遇到了重大问题需要给同事或者老板看看， 参考[弃枝模式](git练习题.md)
+<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>

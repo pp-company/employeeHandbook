@@ -6,3 +6,4 @@
 3. 特例：你的羽毛球拍中间破了个洞，你去修补了这个洞，这不叫修改这叫修复，修复bug不违反O。
 4. 图解:
 ![img](../img/soli.jpg )
+<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
