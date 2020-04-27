@@ -5,7 +5,7 @@
 ```
 2. 将git commit -m设置成git cm
 ```
-命令:git config --global alias.cm "commit -am"
+命令:git config --global alias.cm "!git add -A;git commit -am"
 ```
 3. 将git merge --no-ff设置成git m   
 ```
@@ -15,8 +15,7 @@
 命令：git config --global alias.g "log --graph --oneline"
 5. 将branch -d $1; git sc $1 设置成nb,$1指传入的参数
 ```
-命令:git config --global alias.nb 
-"!f() { git branch -d "$1"; git sc "$1"; }; f"
+命令:git config --global alias.nb !"f() { git d "$1"; git sc "$1"; }; f"
 ```
 6. 将git switch master git pull origin master两条命令设置成pl
 ```
@@ -24,7 +23,7 @@
 ```
 7. 将switch -c 设置成sc
 ···
-命令:git config --global alias.sc “switch -c”
+命令:git config --global alias.sc "switch -c"
 ···
 8. 将git pl;git start 
 ```
