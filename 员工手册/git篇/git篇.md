@@ -17,17 +17,18 @@
 14. 解决每次都要输入密钥[问题](http://www.wechatbus.com/artifice/9.html)
 15. git push 忽略空目录
 16. 每当你要进行实验或者各种骚操作或者危险操作，就要commit一下，不怕搞砸
-17. 
+17. 进行任何git操作之前，请先全部保存一下，因为不保存的话git是在对没保存之前的文件操作
+18. 
     1. 使用git [diff](https://www.cnblogs.com/lsgxeva/p/8540485.html)对比两次提交的内容等....
     2. 在github上简易的diff
     ![img](img/github的commit.jpg )
     ![img](img/找到要对比的文件.jpg )
-17. 
+19. 
     1. github如何让别人管理自己的仓库
     ![img](img/github添加权限1.jpg )
     ![img](img/github添加权限2.jpg )
     2. Bitbucket如何让别人管理自己的仓库
     ![img](img/Bitbucket添加权限.jpg )
-18. [git多人合作要点](git多人合作要点.md)
-19. [多人合作完整流程](多人合作完整流程.md)
+20. [git多人合作要点](git多人合作要点.md)
+21. [多人合作完整流程](多人合作完整流程.md)
 <center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
