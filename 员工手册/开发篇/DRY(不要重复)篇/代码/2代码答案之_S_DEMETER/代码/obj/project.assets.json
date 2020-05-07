@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PP\\vue\\test\\员工手册\\开发篇\\DRY(不要重复)篇\\代码\\代码答案之_S_DEMETER\\代码\\代码.csproj",
+      "projectUniqueName": "E:\\PP\\vue\\test\\员工手册\\开发篇\\DRY(不要重复)篇\\代码\\2代码答案之_S_DEMETER\\代码\\代码.csproj",
       "projectName": "代码",
-      "projectPath": "E:\\PP\\vue\\test\\员工手册\\开发篇\\DRY(不要重复)篇\\代码\\代码答案之_S_DEMETER\\代码\\代码.csproj",
+      "projectPath": "E:\\PP\\vue\\test\\员工手册\\开发篇\\DRY(不要重复)篇\\代码\\2代码答案之_S_DEMETER\\代码\\代码.csproj",
       "packagesPath": "C:\\Users\\pp\\.nuget\\packages\\",
-      "outputPath": "E:\\PP\\vue\\test\\员工手册\\开发篇\\DRY(不要重复)篇\\代码\\代码答案之_S_DEMETER\\代码\\obj\\",
+      "outputPath": "E:\\PP\\vue\\test\\员工手册\\开发篇\\DRY(不要重复)篇\\代码\\2代码答案之_S_DEMETER\\代码\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pp\\AppData\\Roaming\\NuGet\\NuGet.Config",
