@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\PP\\vue\\test\\员工手册\\开发篇\\DRY(不要重复)篇\\代码\\5代码答案之_在不相干的类中重复\\代码\\代码.csproj": {}
+  },
+  "projects": {
+    "E:\\PP\\vue\\test\\员工手册\\开发篇\\DRY(不要重复)篇\\代码\\5代码答案之_在不相干的类中重复\\代码\\代码.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PP\\vue\\test\\员工手册\\开发篇\\DRY(不要重复)篇\\代码\\5代码答案之_在不相干的类中重复\\代码\\代码.csproj",
+        "projectName": "代码",
+        "projectPath": "E:\\PP\\vue\\test\\员工手册\\开发篇\\DRY(不要重复)篇\\代码\\5代码答案之_在不相干的类中重复\\代码\\代码.csproj",
+        "packagesPath": "C:\\Users\\pp\\.nuget\\packages\\",
+        "outputPath": "E:\\PP\\vue\\test\\员工手册\\开发篇\\DRY(不要重复)篇\\代码\\5代码答案之_在不相干的类中重复\\代码\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
