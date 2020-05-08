@@ -1,4 +1,0 @@
-git config --global alias.nb !"f() { git d "$1"; git sc "$1"; }; f"，先运行这条命令，去找git配置文件，通常在C盘的当前用户名下有个.gitconfig文件，打开，找到nb别名对应的命令，将$1添加进相应的位置，参考内容nb = "!f() { git d $1; git sc $1; }; f"
-	，再将下面的命令全选，运行即可
-
-git config --global alias.s status;git config --global alias.cm "!git add -A;git commit -am";git config --global alias.m "merge --no-ff -Xignore-space-change";git config --global alias.g "log --graph --oneline";git config --global alias.pl "!git switch master;git pull origin master";git config --global alias.sc "switch -c";git config --global alias.d "branch -d";git config --global alias.start "!git pl;git nb";git config --global alias.end "!git pl;git m $1";
