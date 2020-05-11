@@ -25,10 +25,10 @@ git config --global alias.d "branch -d";
 git config --global alias.nb !"f() { git d \"\$1\"; git sc \"\$1\"; }; f";
 
 #9. 删除分支，如果删除不存在的分支会报错，但是没有关系
-git config --global alias.start "!git pl;git nb \"\$1\"";
+git config --global alias.start "!git checkout master;git pl;git nb \"\$1\"";
 
 #10. 结束任务，之后如果有冲突手动解决冲突，然后马上手动进行push
-git config --global alias.end "!git pl;git m \"\$1\"";
+git config --global alias.end "!git checkout master;git pl;git m \"\$1\"";
 
 #11. 更新当前分支
 git config --global alias.rb "!git pl; git rebase master;"
