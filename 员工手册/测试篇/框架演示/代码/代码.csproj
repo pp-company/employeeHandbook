@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Zenject">
+      <HintPath>..\..\..\第三方插件\Zenject.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject-tests">
+      <HintPath>..\..\..\第三方插件\Zenject-tests.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
