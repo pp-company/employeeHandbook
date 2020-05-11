@@ -35,9 +35,68 @@ public class Geometry {
 ```
 2. 中重复
 ```
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace 中重复
+{
+    class HelloWorld
+    {
+        void Java()
+        {
+            Console.WriteLine("hello");
+            Console.WriteLine("Java");
+            Console.WriteLine("world");
+        }
+        void C()
+        {
+            Console.WriteLine("hello");
+            Console.WriteLine("C");
+            Console.WriteLine("world");
+        }
+        
+    }
+}
+
 ```
 3. 后重复
 ```
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace 后重复
+{
+    class scale
+    {
+        private float errorThreshold;
+        private RenderedOp image;
+
+        public void scaleToOneDimension(float desiredDimension, float imageDimension)
+        {
+            if (Math.Abs(desiredDimension - imageDimension) < errorThreshold)
+                return;
+            float scalingFactor = desiredDimension / imageDimension;
+            scalingFactor = (float)(Math.Floor(scalingFactor * 100) * 0.01f);
+            RenderedOp newImage = ImageUtilities.getScaledImage(
+            image, scalingFactor, scalingFactor);
+            image.Dispose();
+            System.GC.Collect();
+            image = newImage;
+        }
+        public void rotate(int degrees)
+        {
+            RenderedOp newImage = ImageUtilities.getRotatedImage(
+            image, degrees);
+            image.Dispose();
+            System.GC.Collect();
+            image = newImage;
+        }
+    }
+
+}
+
 ```
 4. 首尾重复
 ```
@@ -60,5 +119,35 @@ public class Geometry {
             }
         ```
     2. 临时占位
+        ```
+        using System;
+        namespace 后重复
+        {
+            internal class RenderedOp : IDisposable,IFormattable
+            {
+                public void Dispose()
+                {
+                    throw new NotImplementedException();  
+                }
+
+                public string ToString(string format, IFormatProvider formatProvider)
+                {
+                    throw new NotImplementedException(); 
+                }
+            }
+        }
+        ```
     3. 构造函数
+        ```
+        public _写动物园_(IEnumerable<会叫的> 动物们) : base(动物们)
+            {
+                _动物们 = 动物们;
+            }
+        ```
+        ```
+        public _读动物园_(IEnumerable<会叫的> 动物们) : base(动物们)
+            {
+                读();
+            }
+        ```
 <center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
