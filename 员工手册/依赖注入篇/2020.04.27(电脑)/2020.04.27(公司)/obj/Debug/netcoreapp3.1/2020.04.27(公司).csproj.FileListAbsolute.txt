@@ -1,0 +1,11 @@
+C:\Users\pp\source\repos\2020.04.27(公司)\2020.04.27(公司)\bin\Debug\netcoreapp3.1\2020.04.27(公司).exe
+C:\Users\pp\source\repos\2020.04.27(公司)\2020.04.27(公司)\bin\Debug\netcoreapp3.1\2020.04.27(公司).deps.json
+C:\Users\pp\source\repos\2020.04.27(公司)\2020.04.27(公司)\bin\Debug\netcoreapp3.1\2020.04.27(公司).runtimeconfig.json
+C:\Users\pp\source\repos\2020.04.27(公司)\2020.04.27(公司)\bin\Debug\netcoreapp3.1\2020.04.27(公司).runtimeconfig.dev.json
+C:\Users\pp\source\repos\2020.04.27(公司)\2020.04.27(公司)\bin\Debug\netcoreapp3.1\2020.04.27(公司).dll
+C:\Users\pp\source\repos\2020.04.27(公司)\2020.04.27(公司)\bin\Debug\netcoreapp3.1\2020.04.27(公司).pdb
+C:\Users\pp\source\repos\2020.04.27(公司)\2020.04.27(公司)\obj\Debug\netcoreapp3.1\2020.04.27(公司).csprojAssemblyReference.cache
+C:\Users\pp\source\repos\2020.04.27(公司)\2020.04.27(公司)\obj\Debug\netcoreapp3.1\2020.04.27(公司).AssemblyInfoInputs.cache
+C:\Users\pp\source\repos\2020.04.27(公司)\2020.04.27(公司)\obj\Debug\netcoreapp3.1\2020.04.27(公司).AssemblyInfo.cs
+C:\Users\pp\source\repos\2020.04.27(公司)\2020.04.27(公司)\obj\Debug\netcoreapp3.1\2020.04.27(公司).dll
+C:\Users\pp\source\repos\2020.04.27(公司)\2020.04.27(公司)\obj\Debug\netcoreapp3.1\2020.04.27(公司).pdb
