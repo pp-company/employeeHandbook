@@ -119,6 +119,7 @@ namespace 后重复
             }
         ```
     2. 临时占位
+        1. 例:throw new NotImplementedException(); 
         ```
         using System;
         namespace 后重复
