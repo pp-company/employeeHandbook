@@ -9,7 +9,10 @@
 6. 严禁使用可以修改历史的git操作。除非有老板明文授权。
 7. 上传录音的时候注意文件大小不要超过100m(录音的时候建议超过80分钟就中断，再继续录音,如果不小心超过了，请查看如何减少[文件大小](https://jingyan.baidu.com/article/359911f550cf7757fe03063b.html)),仓库最大只能存放100G。
 8. 之前被抛弃的commit突然发现有用可以用git reflog找回来。
-9. [快捷方式](git快捷方式.md)，中学毕业后才能使用
+9. [快捷方式](Shortcuts.sh)，中学毕业后才能使用
+    1. git config --global -l git设置好后用这个检验是否成功
+    2. windows,打开vsCode的终端，重新运行这行命令
+    3. mac需要cd 路径; chmod +x ./Shortcut.sh; ./Shortcut.sh
 10. git add -A 把所有的文件全部添加到暂存区。
 11. git commit -m "备注" 一定要写清楚，练习可以随便写，工作要清楚。
 12. 改名操作很容易把git弄晕,所以使用git做改名操作的时候最好单独放在一个commit来做改名，即 改名前commit一下，改名后马上又commit一下，甚至多个改名的时候都建议先改一部分commit再改一部分，非硬性要求 自己斟酌。

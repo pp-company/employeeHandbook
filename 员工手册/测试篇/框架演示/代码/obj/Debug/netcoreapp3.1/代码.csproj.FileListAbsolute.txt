@@ -23,3 +23,4 @@ E:\PP\vue\test\员工手册\测试篇\框架演示\代码\obj\Debug\netcoreapp3.
 E:\PP\vue\test\员工手册\测试篇\框架演示\代码\obj\Debug\netcoreapp3.1\代码.csproj.CopyComplete
 E:\PP\vue\test\员工手册\测试篇\框架演示\代码\obj\Debug\netcoreapp3.1\代码.dll
 E:\PP\vue\test\员工手册\测试篇\框架演示\代码\obj\Debug\netcoreapp3.1\代码.pdb
+E:\PP\vue\test\员工手册\测试篇\框架演示\代码\bin\Debug\netcoreapp3.1\nunit.framework.dll

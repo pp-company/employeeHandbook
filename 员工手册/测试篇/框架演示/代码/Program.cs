@@ -6,7 +6,8 @@ namespace 代码
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            
         }
     }
 }
