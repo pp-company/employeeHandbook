@@ -1,38 +1,7 @@
 2. 中重复
 ```
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace 中重复
-{
-    class VacationPolicy
-    {
-        void accrueUSDivisionVacation()
-        {
-            hello();
-            Console.WriteLine("Java");
-            world();
-        }
-        void accrueEUDivisionVacation()
-        {
-            hello();
-            Console.WriteLine("C");
-            world();
-        }
-        void hello()
-        {
-            Console.WriteLine("hello");
-        }
-        void world()
-        {
-            Console.WriteLine("world");
-        }
-    }
-}
-
 ```
-3. 后重复
+3. [后重复](代码/后重复)
 ```
 using System;
 using System.Collections.Generic;
@@ -70,6 +39,5 @@ namespace 后重复
         }
     }
 }
-
 ```
 <center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>

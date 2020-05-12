@@ -6,10 +6,11 @@ namespace 代码
 {
     class 铅笔
     {
-        private int _木头;
+        protected int _木头;
         protected int _笔芯;
 
         public int 木头 { get => _木头; set => _木头 = value; }
+        public int 笔芯 { get => _笔芯; set => _笔芯 = value; }
 
         public 铅笔()
         {

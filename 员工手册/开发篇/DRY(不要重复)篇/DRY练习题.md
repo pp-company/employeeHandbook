@@ -35,30 +35,6 @@ public class Geometry {
 ```
 2. 中重复
 ```
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace 中重复
-{
-    class HelloWorld
-    {
-        void Java()
-        {
-            Console.WriteLine("hello");
-            Console.WriteLine("Java");
-            Console.WriteLine("world");
-        }
-        void C()
-        {
-            Console.WriteLine("hello");
-            Console.WriteLine("C");
-            Console.WriteLine("world");
-        }
-        
-    }
-}
-
 ```
 3. 后重复
 ```
@@ -100,6 +76,31 @@ namespace 后重复
 ```
 4. 首尾重复
 ```
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace 中重复
+{
+    class HelloWorld
+    {
+        void Java()
+        {
+            Console.WriteLine("hello");
+            Console.WriteLine("Java");
+            Console.WriteLine("world");
+        }
+        void C()
+        {
+            Console.WriteLine("hello");
+            Console.WriteLine("C");
+            Console.WriteLine("world");
+        }
+        
+    }
+}
+
 ```
 5. 到处都有重复
 ```
