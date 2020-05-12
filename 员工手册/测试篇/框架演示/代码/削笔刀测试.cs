@@ -22,6 +22,7 @@ namespace 代码
         public void test()
         {
         }
+        //笔芯也要削
         public void 测试目测正确的()
         {
             模板(_铅笔.木头);
@@ -41,10 +42,11 @@ namespace 代码
         public void 边界模板(int num)
         {
             削();
-            Assert.AreEqual(num, _铅笔.木头);
+            Assert.AreEqual(num, _铅笔.木头);//等于或报错
         }
         public void 边界情况()
         {
+            _铅笔.木头 = 0;     
             ModestTree.Assert.Throws(() => 边界模板(0));
         }
 

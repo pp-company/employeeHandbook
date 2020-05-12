@@ -9,7 +9,7 @@ namespace 代码
         private int _木头;
         protected int _笔芯;
 
-        public int 木头 { get => _木头;}
+        public int 木头 { get => _木头; set => _木头 = value; }
 
         public 铅笔()
         {
