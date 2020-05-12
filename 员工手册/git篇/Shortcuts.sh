@@ -13,7 +13,7 @@ git config --global alias.m "merge --no-ff -Xignore-space-change";
 git config --global alias.g "log --graph --oneline";
 
 #5. 强制创建新分支```$1```指传入的参数代表你的新分支名
-git config --global alias.nb !"f() { git d "$1"; git sc "$1"; }; f";
+git config --global alias.nb !"f(){ git d "$1";git sc "$1";};f"
 
 #6. 更新主支
 git config --global alias.pl "!git pull origin master:master";
