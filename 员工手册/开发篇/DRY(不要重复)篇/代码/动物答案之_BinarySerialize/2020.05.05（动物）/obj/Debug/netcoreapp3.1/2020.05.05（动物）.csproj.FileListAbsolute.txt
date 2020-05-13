@@ -26,3 +26,4 @@ E:\PP\vue\test\员工手册\开发篇\DRY(不要重复)篇\代码\动物答案�
 E:\PP\vue\test\员工手册\开发篇\DRY(不要重复)篇\代码\动物答案之_BinarySerialize\2020.05.05（动物）\bin\Debug\netcoreapp3.1\LitJSON.dll
 E:\PP\vue\test\员工手册\开发篇\DRY(不要重复)篇\代码\动物答案之_BinarySerialize\2020.05.05（动物）\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 E:\PP\vue\test\员工手册\开发篇\DRY(不要重复)篇\代码\动物答案之_BinarySerialize\2020.05.05（动物）\obj\Debug\netcoreapp3.1\2020.05.05（动物）.csproj.CopyComplete
+E:\PP\vue\test\员工手册\开发篇\DRY(不要重复)篇\代码\动物答案之_BinarySerialize\2020.05.05（动物）\bin\Debug\netcoreapp3.1\nunit.framework.dll
