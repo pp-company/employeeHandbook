@@ -25,7 +25,7 @@ namespace _2020._05._05_动物_
         public void 读()
         {
             FileStream fs = new FileStream("C:\\Users\\pp\\Desktop\\pp.txt", FileMode.Open, FileAccess.ReadWrite);
-            _动物们 = (IEnumerable<会叫的>)_binayFormat.Deserialize(_可以创建文件的.);
+            //_动物们 = (IEnumerable<会叫的>)_binayFormat.Deserialize(_可以创建文件的);
             fs.Close();
             
         }

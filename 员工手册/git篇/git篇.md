@@ -34,4 +34,6 @@
     ![img](img/Bitbucket添加权限.jpg )
 20. [git多人合作要点](git多人合作要点.md)
 21. [多人合作完整流程](多人合作完整流程.md)
+22. 加减代码可以，不要换代码的顺序
+23. 如果一个命令依赖另一个命令，被依赖的要写到前面
 <center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
