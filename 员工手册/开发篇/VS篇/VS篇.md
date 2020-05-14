@@ -1,4 +1,5 @@
-###<center>VS篇</center>
+# <center>VS篇</center>
+
 1. 重命名，一个变量名或者类名需要修改，可是其他的地方又有用到，要改的话就要全部改，通过vs自带的工具做到这件事，不要手动自己改，选中要修改的名字-->右键-->重命名-->修改成想要的名字-->应用
 ![img](img/重命名.jpg)
 2. 构造函数的生成，选择一个空白的地方-->右键-->快速操作和重构-->生成构造函数
@@ -12,3 +13,5 @@
     3. new 类之后按Alt+Enter键可,选择第三个自动补全类型跟变量名,填好按回车即可
 5. [查看类图](https://blog.csdn.net/zhangpeterx/article/details/97920984),安装完之后如果用不了重启软件或者重启电脑试试
 6. Ctrl+K+C(注释)、Ctrl+K+U(取消注释) 
+
+<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
