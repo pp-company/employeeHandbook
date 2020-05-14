@@ -10,7 +10,7 @@ namespace 代码.installer
         public override void Bind()
         {
             Container.Bind<锋利的>().To<削笔刀>().AsSingle();
-            Container.Bind<铅笔>().To<铅笔>().AsTransient();
+            Container.Bind<铅笔>().To<铅笔>().AsSingle();
         }
     }
 }

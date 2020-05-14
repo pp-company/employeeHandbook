@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.0-preview-20200428-01, )"
+            },
             "NUnit": {
               "target": "Package",
               "version": "[3.12.0, )"
