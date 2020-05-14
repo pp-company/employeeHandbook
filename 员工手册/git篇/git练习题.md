@@ -1,7 +1,8 @@
-﻿##<center>git练习题</center>
+﻿# <center>git练习题</center>
+
 熟悉github和Bitbucket的使用，练习题往github和Bitbucket都上传一遍，并注意对比两者的不同。
-###小学考试题
-###考试题图解
+## 小学考试题
+### 考试题图解
 ![img](img/git题目图解.jpg )
 
 1. 线性叠加。
