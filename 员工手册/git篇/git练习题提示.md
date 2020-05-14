@@ -53,7 +53,8 @@ git tag -d <tagname>
    删除指定的标签
 14. git commit之后会弹出一个编辑窗口，按i键插入内容，将你要备注的内容输入进去，按Esc键,:wq（保存），回车,带#号的内容都是被注释掉的，不用管
 ![img](img/编辑窗口.jpg )
-###中学考试题
+
+### 中学考试题
 
 1. （6、7）二人分栈合、二人分队合（txt）。
      1. 使用git status查看哪个文件有冲突，然后打开那个文件，里面有箭头，其中<<<<<<< HEAD是指主---------分支修改的内容>>>>>>> dev2 是指dev2上修改的内容
@@ -64,5 +65,14 @@ word和pdf难点在于，得人工去找冲突在哪里，git帮不了任何忙�
 
 ### 大学考试题
 
+1. 
 2. 在merge里加个```-Xignore-space-change```参数，git又可以重新自动解决冲突了
+3. 步骤如下
+    1. `git g`看一下应该回退到哪里，记下commit hash。
+    2. `git reset <commit hash>`  不要用--hard 这样会保留你现有改动的代码
+    3. `git stash` 把改动暂存
+    4. `git start XXX` 开始新分支XXX
+    5. `git stash pop` 暂存的改动放回来， 注意有冲突要手动解决
+    6. `git cm yyyyyy`
+
 <center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
