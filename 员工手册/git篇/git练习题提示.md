@@ -65,5 +65,14 @@ word和pdf难点在于，得人工去找冲突在哪里，git帮不了任何忙�
 
 ### 大学考试题
 
+1. 
 2. 在merge里加个```-Xignore-space-change```参数，git又可以重新自动解决冲突了
+3. 步骤如下
+    1. `git g`看一下应该回退到哪里，记下commit hash。
+    2. `git reset <commit hash>`  不要用--hard 这样会保留你现有改动的代码
+    3. `git stash` 把改动暂存
+    4. `git start XXX` 开始新分支XXX
+    5. `git stash pop` 暂存的改动放回来， 注意有冲突要手动解决
+    6. `git cm yyyyyy`
+
 <center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
