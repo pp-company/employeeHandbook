@@ -1,7 +1,12 @@
+# <center>DRY练习题答案</center>
+
 2. 中重复
+
 ```
 ```
+
 3. [后重复](代码/后重复)
+
 ```
 using System;
 using System.Collections.Generic;
@@ -40,5 +45,7 @@ namespace 后重复
     }
 }
 ```
+
 4. [首尾重复](代码/首尾重复)
+
 <center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>

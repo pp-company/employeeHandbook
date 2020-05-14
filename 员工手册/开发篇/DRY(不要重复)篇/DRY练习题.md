@@ -1,4 +1,7 @@
+# <center>DRY练习题</center>
+
 1. 类的变量重复(Clean Code第95页)     
+
 ```
 public class Square {
  public Point topLeft;
@@ -33,10 +36,14 @@ public class Geometry {
  }
 }
 ```
+
 2. 中重复
+
 ```
 ```
+
 3. 后重复
+
 ```
 using System;
 using System.Collections.Generic;
@@ -74,9 +81,10 @@ namespace 后重复
 }
 
 ```
-4. 首尾重复
-```
 
+4. 首尾重复
+
+```
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -102,9 +110,12 @@ namespace 中重复
 }
 
 ```
+
 5. 到处都有重复
+
 ```
 ```
+
 6. 什么样的重复看似重复实际不重复
     1. 碰巧相同看着都是写第一段，重复了，实际上不重复，因为实际写的第一段，填写的文字不是第一段，而是开头的第一段文字，每个文章的第一段都不一样
         ```
@@ -152,4 +163,5 @@ namespace 中重复
                 读();
             }
         ```
+        
 <center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>

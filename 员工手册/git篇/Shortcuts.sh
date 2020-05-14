@@ -33,3 +33,4 @@ git config --global alias.end "!git pl;git checkout master;git m $1"
 #11. 更新当前分支
 git config --global alias.rb "! git pl; git rebase master;"
 #解释:当你做了一点点微小的修改尚且不值得merge但是又需要同步一下就用这个，如果你做了很多修改，不建议用这个。按理来说你做的一点点修改不至于导致冲突但是如果冲突发生了用```git add -A; #git rebase --continue;```来解决
+#说明:使用git rb应该先把已有的改动cm，如果觉得cm尚早可以用git stash暂存，完成 git rb后（包括解决冲突后） 用git stash pop 放回来

@@ -1,4 +1,5 @@
-###<center>单一责任原则</center>
+# <center>单一责任原则</center>
+
 1. 解释:一个类只负责一件事情
 2. 标准:这个类你能不能给他取一个名字，你能不能给他取一个[简短的好的名字(最小惊奇原则)](https://baijiahao.baidu.com/s?id=1644745267084454116&wfr=spider&for=pc)，但是也有特例
 3. 特例：虽然有时候可以取一个好的名字，它看起来是符合S的但实际上不符合S也不符合[I](../I/I篇.md)
@@ -13,4 +14,5 @@
 6. 类不是函数的集合，不要觉得一个类里面只放一个函数就亏了的感觉
 6. 图解:
 ![img](../img/soli.jpg )
+
 <center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>

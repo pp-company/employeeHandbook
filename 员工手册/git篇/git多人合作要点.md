@@ -1,4 +1,5 @@
-###<center>git多人合作要点</center>
+#<center>git多人合作要点</center>
+
 1. merge都要带 --no-ff。
 2. 每次开新分支前记得一定先pull一下,push之前先pull，有事没事pull一下。
 3. 早merge早脱手 越晚需要手动解决冲突的概率越大。但是当然需要做完整之后才merge。
@@ -16,4 +17,5 @@
     3. f按页往下看
     4. b按页往上看
     5. 空格可快速往下翻看
+
 <center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
