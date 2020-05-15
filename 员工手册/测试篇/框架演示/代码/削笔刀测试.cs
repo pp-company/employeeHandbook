@@ -58,12 +58,10 @@ namespace 代码
         }
         [Test]
         public void 边界情况()
-        { 
-            if(_铅笔.木头 == 0 || _铅笔.笔芯 == 0)
-            {
-                ModestTree.Assert.Throws(() => 边界模板());
-            }
-            
+        {
+            _铅笔.木头 = 0;
+            _铅笔.笔芯 = 0;
+            ModestTree.Assert.Throws(() => 边界模板());
         }
 
         protected override void SetInstallers()
