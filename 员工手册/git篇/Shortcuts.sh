@@ -1,5 +1,13 @@
 #!/bin/sh
 
+#use echo test to telll windows apart:
+#this is linux
+#echo "f(){ git d "$1";git sc "$1";};f"
+#f(){ git d ;git sc ;};f 
+#this is windows
+#echo "f(){ git d "$1";git sc "$1";};f"
+#....
+
 #看状态
 git config --global alias.s status
 
