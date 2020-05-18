@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace 代码
 {
     class 写东西:有署名的,锋利的//这里继承锋利的不算违反S，因为在接口层面我们把I做得很好
