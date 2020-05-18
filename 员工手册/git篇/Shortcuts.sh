@@ -15,6 +15,12 @@ git config --global core.quotepath false
 #echo "f(){ git d "$1";git sc "$1";};f"
 #....
 
+
+
+#refresh fetch
+git config --global alias.f "fetch --all"
+
+
 #看状态
 git config --global alias.s status
 
