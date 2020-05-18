@@ -1,5 +1,12 @@
 #!/bin/sh
 
+#better diff algo
+git config --global diff.algorithm histogram
+
+#show chinese path
+git config --global core.quotepath false
+
+
 #use echo test to telll windows apart:
 #this is linux
 #echo "f(){ git d "$1";git sc "$1";};f"
