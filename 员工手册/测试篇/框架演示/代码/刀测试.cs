@@ -55,16 +55,10 @@ namespace 代码
         [Test]
         public void 边界情况()
         {
-<<<<<<< HEAD:员工手册/测试篇/框架演示/代码/刀测试.cs
             _长条状.长度 = 0;
-=======
-            _铅笔.木头 = 0;
-            _铅笔.笔芯 = 0;
->>>>>>> pp:员工手册/测试篇/框架演示/代码/削笔刀测试.cs
             ModestTree.Assert.Throws(() => 边界模板());
             //边界模板();
         }
-<<<<<<< HEAD:员工手册/测试篇/框架演示/代码/刀测试.cs
         [Test]
         public void 简单的测试()
         {
@@ -76,9 +70,6 @@ namespace 代码
             削();
             Assert.AreNotEqual(num, _长条状.长度);
         }
-=======
->>>>>>> pp:员工手册/测试篇/框架演示/代码/削笔刀测试.cs
-
         protected override void SetInstallers()
         {
             installers.Add(new 文具installer());
