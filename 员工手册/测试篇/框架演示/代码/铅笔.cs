@@ -4,27 +4,25 @@ using System.Text;
 
 namespace 代码
 {
-    class 铅笔
+    class 铅笔:长条状的
     {
-        protected int _木头;
-        protected int _笔芯;
+        protected 长条状的 _木头;
+        public int 长度 { get => _木头.长度; set => _木头.长度 = value; }
+        protected int _木头的长度0;
 
-        public int 木头 { get => _木头; set => _木头 = value; }
-        public int 笔芯 { get => _笔芯; set => _笔芯 = value; }
+        public 铅笔(长条状的 木头,int 木头的长度)
+        {
+            _木头 = 木头;
+            _木头的长度0 = 木头的长度;
+            初始化铅笔();
+        }
 
-        public 铅笔()
+        void 初始化铅笔()
         {
-            _木头 = 100;
-            _笔芯 = 100;
+            _木头.长度 = _木头的长度0;
         }
-        public void 削木头()
-        {
-            _木头 = 木头 - 2;
-        }
-        public void 削笔芯()
-        {
-            _笔芯--;
-        }
+        
+        
 
     }
 }
