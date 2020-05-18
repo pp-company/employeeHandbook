@@ -82,7 +82,7 @@ namespace Zenject
 
 
 
-		public static void PrintLine()
+		public static void PrintOneLine()
 		{
 			Console.WriteLine("");
 			Console.WriteLine("===========================");
@@ -106,14 +106,14 @@ namespace Zenject
 		}
 
 
-		public static void AssertPrintEqual(object expected, object actual)
+		public static void AssertEqualAndPrint(object expected, object actual)
 		{
 			Print("actual = " + actual);
 			Assert.AreEqual(expected.ToString(), actual.ToString());
 		}
 
 
-		public void AssertMatrixSame<T>(T[,] a, T[,] b)
+		public virtual void AssertMatrixSame<T>(T[,] a, T[,] b)
 		{
 			var aRow = a.GetLength(0);
 			var aCol = a.GetLength(1);
@@ -143,7 +143,7 @@ namespace Zenject
 
 
 
-		public void AssertListSame<T>(IEnumerable<T> a, IEnumerable<T> b)
+		public virtual  void AssertListSame<T>(IEnumerable<T> a, IEnumerable<T> b)
 		{
 			var ac = a.Count();
 			var bc = b.Count();
@@ -156,24 +156,14 @@ namespace Zenject
 				var ae = a.GetEnumerator();
 				var be = b.GetEnumerator();
 
-				if (typeof(T) == typeof(double) || typeof(T) == typeof(float))//decide once, don't decide in loop
-				{
+				
 					while (ae.MoveNext() && be.MoveNext())
 					{
 						var ai = ae.Current;
 						var bi = be.Current;
 						SafeAssertEqual(ai, bi);
 					}
-				}
-				else
-				{
-					while (ae.MoveNext() && be.MoveNext())
-					{
-						var ai = ae.Current;
-						var bi = be.Current;
-						Assert.AreEqual(ai, bi);//speed up. no need to use safe, because T is already ensured, and there is no truncation error.
-					}
-				}
+				
 
 			}
 
@@ -182,7 +172,7 @@ namespace Zenject
 		}
 
 
-		public void AssertListNotSame<T>(IEnumerable<T> a, IEnumerable<T> b)
+		public virtual  void AssertListNotSame<T>(IEnumerable<T> a, IEnumerable<T> b)
 		{
 			bool ans;
 			ans = a.SequenceEqual(b);
@@ -215,7 +205,7 @@ namespace Zenject
 		}
 
 
-		protected bool IsSimilar(IEnumerable<float> list)
+		protected virtual  bool IsSimilar(IEnumerable<float> list)
 		{
 
 			float average = list.Average();
