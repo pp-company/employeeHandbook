@@ -18,11 +18,11 @@ namespace 代码
 
         public int 长度
         {
-            get => Math.Max(_长度, _笔芯.长度); 
+            get => Math.Max(_长度, _笔芯的长度0); 
             set
             {
                 _长度 = Math.Min(_长度, value);
-                _笔芯.长度 = Math.Min(_笔芯.长度, value);
+                _笔芯的长度0 = Math.Min(_笔芯的长度0, value);
             }
         }
 
