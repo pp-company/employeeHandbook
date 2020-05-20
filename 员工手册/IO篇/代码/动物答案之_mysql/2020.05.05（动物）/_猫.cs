@@ -5,8 +5,13 @@ using System.Text;
 
 namespace _2020._05._05_动物_
 {
-    interface json保持多态的
+    [Serializable]
+    class _猫 : _动物
     {
-        JsonSerializerSettings 保持多态();
+        
+        public override string 叫()
+        {
+            return "喵";
+        }
     }
 }
