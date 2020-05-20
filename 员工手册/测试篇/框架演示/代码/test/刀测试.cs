@@ -15,9 +15,8 @@ namespace 代码
         protected 锋利的 _刀;
         [Inject]
         protected 长条状的 _长条状;
-
-        
-
+        [Inject]
+        protected 可以被削的 _被削的;
         public void 削()
         {
             _刀.削();
@@ -25,6 +24,13 @@ namespace 代码
         [Test]
         public void test()
         {
+        }
+        [Test]
+        public void 石头()
+        {
+            可以被削的 _被削的副本 = (可以被削的)_被削的.Clone();
+            _刀.削();
+            _被削的副本.CompareTo(_被削的);
         }
         [Test]
         public void 测试目测正确的()

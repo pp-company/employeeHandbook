@@ -16,6 +16,7 @@ namespace 代码.installer
             Container.Bind<int>().FromInstance(100).AsTransient().WhenInjectedInto<铅笔>();
             Container.Bind<int>().FromInstance(100).AsTransient().WhenInjectedInto<木头>();
             Container.Bind<int>().FromInstance(2).AsTransient().WhenInjectedInto<刀>();
+            Container.Bind<可以被削的>().To<石头>().AsSingle();
         }
     }
 }
