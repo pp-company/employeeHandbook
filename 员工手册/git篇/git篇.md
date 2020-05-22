@@ -34,11 +34,13 @@
 20. [git多人合作要点](git多人合作要点.md)
 21. [多人合作完整流程](多人合作完整流程.md)
 22. 加减代码可以，尽量不要换代码的顺序
-12. git返回的行太多了会自动隐藏
+23. 学会使用[.gitignore](https://www.jianshu.com/p/699ed86028c2)
+24. git返回的行太多了会自动隐藏
     1. j按行往下看
     2. k按行的往上看
     3. f按页往下看
     4. b按页往上看
     5. 空格可快速往下翻看
+    6. q退出
     
 <center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>

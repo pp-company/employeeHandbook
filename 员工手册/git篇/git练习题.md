@@ -123,6 +123,5 @@
 20. 已经add了，但后悔没有切换分支，却不想遗失已经改好的内容，要怎么改回去？
 21. 本来要在主分支上分支的，不小心在分支上分支了，要怎么改？
 22. 做了半天发现连任务都理解错了，需要回滚回去，要怎么改？
-23. 学会使用[.gitignore](https://www.jianshu.com/p/699ed86028c2)
 
 <center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
