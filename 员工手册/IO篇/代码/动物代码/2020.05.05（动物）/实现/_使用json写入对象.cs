@@ -6,7 +6,7 @@ using System.Text;
 
 namespace _2020._05._05_动物_
 {
-    class _使用json写入对象 : 可以写的, 可以保持json多态的
+    class _使用json写入对象 : 把一个东西写到一个路径, 可以保持json多态的
     {
         protected 可以保持json多态的 _可以保持json多态的;
 

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace _2020._05._05_动物_
 {
-    class _使用json读取对象 : 可以读的,可以保持json多态的
+    class _使用json读取对象 : 从一个路径读到一个东西,可以保持json多态的
     {
         protected 可以保持json多态的 _可以保持json多态的;
 
