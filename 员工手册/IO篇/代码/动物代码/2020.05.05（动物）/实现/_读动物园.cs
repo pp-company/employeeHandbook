@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using _2020._05._05_动物_.接口;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,12 +14,13 @@ namespace _2020._05._05_动物_
         //public _读动物园(IEnumerable<会叫的> 动物们) : base(动物们)
         //{
         //}
-        public _读动物园(IEnumerable<会叫的> 动物们) : base(动物们)
+        public _读动物园(IEnumerable<会叫的> 动物们, 可以显示的 可以显示的) : base(动物们, 可以显示的)
         {
-            //读();//我们不注入动物，而是改成从硬盘上读动物。正常开发的时候应该先把动物从硬盘上读出来再注入进来，不过今天的演示就不弄那么麻烦了
+            读();//我们不注入动物，而是改成从硬盘上读动物。正常开发的时候应该先把动物从硬盘上读出来再注入进来，不过今天的演示就不弄那么麻烦了
         }
         public void 读()
         {
+
         }
     }
 }

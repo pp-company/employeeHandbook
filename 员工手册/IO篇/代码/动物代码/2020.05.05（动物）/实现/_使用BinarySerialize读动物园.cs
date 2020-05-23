@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _2020._05._05_动物_.接口;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization;
@@ -10,7 +11,7 @@ namespace _2020._05._05_动物_
     {
         protected IFormatter _binayFormat;
         
-        public _使用BinarySerialize读动物园(IEnumerable<会叫的> 动物们, IFormatter binayFormat) : base(动物们)
+        public _使用BinarySerialize读动物园(IEnumerable<会叫的> 动物们, IFormatter binayFormat,可以显示的 可以显示的) : base(动物们,可以显示的)
         {
             _binayFormat = binayFormat;
             读();
