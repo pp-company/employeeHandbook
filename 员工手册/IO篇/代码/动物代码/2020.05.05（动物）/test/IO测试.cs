@@ -30,7 +30,6 @@ namespace _2020._05._05_动物_.test
         [Test]
         public void 目测正确的测试()
         {
-
             Assert.AreEqual("喵", 获取到动物叫声数据的模板().ElementAt(0));
         }
 
@@ -42,6 +41,11 @@ namespace _2020._05._05_动物_.test
             return _可以读取的.读取数据();
         }
         [Test]
+        public void 可以唱的跟读动物地址相同()
+        {
+            Assert.AreSame(_可以从动物园读取动物的, _可以唱的);
+        }
+        [Test]
         public void 测试()
         {
             Assert.AreEqual("汪", 获取到动物叫声数据的模板().ElementAt(1));
@@ -49,6 +53,7 @@ namespace _2020._05._05_动物_.test
             Assert.AreEqual("汪", 获取到动物叫声数据的模板().ElementAt(3));
             Assert.AreEqual("喵", 获取到动物叫声数据的模板().ElementAt(4));
             Assert.AreEqual("汪", 获取到动物叫声数据的模板().ElementAt(5));
+            Assert.AreEqual("汪", 获取到动物叫声数据的模板().ElementAt(9));
         }
 
         protected override void SetInstallers()
