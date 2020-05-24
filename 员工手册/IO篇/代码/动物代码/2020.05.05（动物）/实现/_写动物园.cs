@@ -16,7 +16,7 @@ namespace _2020._05._05_动物_
         public _写动物园(IEnumerable<会叫的> 动物们,可以显示的 可以显示的) : base(动物们,可以显示的)
         {
         }
-        public void 写()
+        public virtual void 写()
         {
           
         }

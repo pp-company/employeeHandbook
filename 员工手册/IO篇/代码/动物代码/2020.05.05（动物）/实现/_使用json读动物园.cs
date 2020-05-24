@@ -15,7 +15,7 @@ namespace _2020._05._05_动物_
             _路径 = 路径;
             
         }
-        public void 读()
+        public override void 读()
         {
             _动物们 = (IEnumerable<会叫的>)读取对象(_路径);
 
