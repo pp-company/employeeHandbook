@@ -11,8 +11,8 @@ using 代码.installer;
 
 namespace _2020._05._05_动物_.test
 {
-	[TestFixture]
-	public class IO测试 : UnitTestBase
+	//[TestFixture]
+	public abstract class IO测试 : UnitTestBase
 	{
 		[Inject]
 		可以从动物园读取动物的 _可以从动物园读取动物的;
@@ -21,7 +21,7 @@ namespace _2020._05._05_动物_.test
 		[Inject]
 		可以唱的 _可以唱的;
 		[Inject]
-		可以读取的 _可以读取的;////复杂多余的结构，只需要注入一个，ICollection<string>，且把它bind assingle.
+		ICollection<string> _可以读取的;////复杂多余的结构，只需要注入一个，ICollection<string>，且把它bind assingle.
 		[Test]
 		public void 空白测试()
 		{
@@ -38,7 +38,7 @@ namespace _2020._05._05_动物_.test
 			_可以将动物写入到动物园的.写();
 			_可以从动物园读取动物的.读();
 			_可以唱的.大合唱();
-			return _可以读取的.读取数据();
+			return _可以读取的;
 		}
 
 
