@@ -8,7 +8,7 @@ using Zenject;
 
 namespace 代码.installer
 {
-    class IOInstaller : BindingInstaller
+    class jsonInstaller : BindingInstaller
     {
         public override void Bind()
         {
