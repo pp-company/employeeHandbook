@@ -7,10 +7,11 @@ namespace _2020._05._05_动物_
 {
 
 	//use factory
-	class _json保持多态 : 可以保持json多态的
+	class _json保持多态 : IFactory<JsonSerializerSettings>
 	{
-		public JsonSerializerSettings 设置json保持多态()
+		public JsonSerializerSettings Create()
 		{
+
 			JsonSerializerSettings Settings = new JsonSerializerSettings()
 			{
 				TypeNameHandling = TypeNameHandling.All

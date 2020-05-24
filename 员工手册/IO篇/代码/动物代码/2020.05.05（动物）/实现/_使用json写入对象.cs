@@ -6,23 +6,25 @@ using System.Text;
 
 namespace _2020._05._05_动物_
 {
-	class _使用json写入对象 : 把一个东西写到一个路径, 可以保持json多态的
+	class _使用json写入对象 : 把一个东西写到一个路径
 	{
-		protected 可以保持json多态的 _可以保持json多态的;
+		protected JsonSerializerSettings _可以保持json多态的;
 
-		public _使用json写入对象(可以保持json多态的 可以保持json多态的) //inject JsonSerializerSettings 而不是。。。
+		public _使用json写入对象(JsonSerializerSettings 可以保持json多态的) //inject JsonSerializerSettings 而不是。。。
 		{
 			_可以保持json多态的 = 可以保持json多态的;
 		}
 
-		public void 写入对象(object 对象, string 路径)
+		public void SetParameter(string parameter)
 		{
-			File.WriteAllText(路径, JsonConvert.SerializeObject(对象, 设置json保持多态()));
+			throw new NotImplementedException();
 		}
 
-		public JsonSerializerSettings 设置json保持多态()
+		public void 写入对象(object 对象, string 路径)
 		{
-			return _可以保持json多态的.设置json保持多态();
+			File.WriteAllText(路径, JsonConvert.SerializeObject(对象, _可以保持json多态的));
 		}
+
+
 	}
 }
