@@ -13,12 +13,11 @@ namespace 代码.installer
 	{
 		public override void Bind()
 		{
-
 			string 路径 = "C:\\Users\\pp\\Desktop\\pp.json";
 			Container.Bind<string>().FromInstance(路径).AsSingle().WhenInjectedInto<_使用json读动物园>();
 			Container.Bind<string>().FromInstance(路径).AsSingle().WhenInjectedInto<_使用json写动物园>();
 			Container.Bind<从一个路径读到一个东西>().To<_使用json读取对象>().AsTransient().WhenInjectedInto<_使用json读动物园>();
-			Container.Bind<可以将动物写入到动物园的>().To<_使用json写动物园>().AsTransient();
+			Container.Bind<可以将对象写入到地方的>().To<_使用json写动物园>().AsTransient();
 			Container.Bind<把一个东西写到一个路径>().To<_使用json写入对象>().AsTransient().WhenInjectedInto<_使用json写动物园>();
 			_猫[] _猫们 = new _猫[5];
 			_狗[] _狗们 = new _狗[5];
@@ -40,12 +39,10 @@ namespace 代码.installer
 			//Container.Bind<可以从动物园读取动物的>().To<_使用json读动物园>().AsSingle();
 			//Container.Bind<可以唱的>().To<_使用json读动物园>().AsSingle();
 
+            Container.Bind<可以从地方读取对象的>().To<_使用json读动物园>().AsSingle();
+            Container.Bind<可以唱的>().FromMethod((InjectContext s)=> (可以唱的)Container.Resolve<可以从地方读取对象的>()).AsSingle();
 			//如果接口太多太乱,会误杀,不建议使用
 			//Container.BindInterfacesTo<_使用json读动物园>().AsSingle();
-
-			//
-			Container.Bind<可以从动物园读取动物的>().To<_使用json读动物园>().AsSingle();
-			Container.Bind<可以唱的>().FromMethod((InjectContext s) => (可以唱的)Container.Resolve<可以从动物园读取动物的>()).AsSingle();
 
 			//Container.Bind<可以读取的>().To<_存取>().AsSingle();
 			Container.Bind<可以显示的>().To<_在控制台缓存>().AsTransient();

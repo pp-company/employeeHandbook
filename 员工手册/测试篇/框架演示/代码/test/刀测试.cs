@@ -9,7 +9,7 @@ using 代码.test;
 namespace 代码
 {
     [TestFixture]
-    class 刀测试 : UnitTestBase,锋利的
+    class 刀测试 : UnitTestBase
     {
         [Inject]
         protected 锋利的 _刀;

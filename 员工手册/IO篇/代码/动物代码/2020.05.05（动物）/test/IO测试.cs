@@ -15,9 +15,9 @@ namespace _2020._05._05_动物_.test
 	public abstract class IO测试 : UnitTestBase
 	{
 		[Inject]
-		可以从动物园读取动物的 _可以从动物园读取动物的;
+		可以从地方读取对象的 _可以从动物园读取动物的;
 		[Inject]
-		可以将动物写入到动物园的 _可以将动物写入到动物园的;
+		可以将对象写入到地方的 _可以将动物写入到动物园的;
 		[Inject]
 		可以唱的 _可以唱的;
 		[Inject]
