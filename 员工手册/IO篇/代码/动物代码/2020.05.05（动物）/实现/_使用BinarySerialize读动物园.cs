@@ -7,7 +7,7 @@ using System.Text;
 
 namespace _2020._05._05_动物_
 {
-    class _使用BinarySerialize读动物园:_动物园,可以从动物园读取动物的
+    class _使用BinarySerialize读动物园:_动物园,可以从地方读取对象的
     {
         protected IFormatter _binayFormat;
         

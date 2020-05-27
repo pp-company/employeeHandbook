@@ -22,8 +22,7 @@ namespace _2020._05._05_动物_
 
 		public object 读取对象(string 路径)
 		{
-			return JsonConvert.DeserializeObject<IEnumerable<会叫的>>(File.ReadAllText(路径), 设置json保持多态());
-			//你这带了<>也是徒劳，出去后还是object
+			return JsonConvert.DeserializeObject(File.ReadAllText(路径), 设置json保持多态());
 		}
 	}
 }

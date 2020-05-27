@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _2020._05._05_动物_
 {
-    class _使用json写动物园 : _写动物园, 把一个东西写到一个路径,可以将动物写入到动物园的
+    class _使用json写动物园 : _写动物园, 把一个东西写到一个路径,可以将对象写入到地方的
     {
         protected IEnumerable<会叫的> _动物们;
         protected 把一个东西写到一个路径 _把一个东西写到一个路径;

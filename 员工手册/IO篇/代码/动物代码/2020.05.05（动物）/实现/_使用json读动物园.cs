@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _2020._05._05_动物_
 {
-    class _使用json读动物园: _读动物园, 从一个路径读到一个东西,可以从动物园读取动物的
+    class _使用json读动物园: _读动物园, 从一个路径读到一个东西,可以从地方读取对象的
     {
         protected 从一个路径读到一个东西 _从一个路径读到一个东西;
         protected string _路径;
