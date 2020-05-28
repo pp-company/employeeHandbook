@@ -18,7 +18,7 @@ namespace _2020._05._05_动物_
         {
             //我们不注入动物，而是改成从硬盘上读动物。正常开发的时候应该先把动物从硬盘上读出来再注入进来，不过今天的演示就不弄那么麻烦了
         }
-        public abstract void 读();//abstract
+        public abstract void 读();
     }
 	
 }
