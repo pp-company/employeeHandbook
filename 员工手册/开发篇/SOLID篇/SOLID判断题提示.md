@@ -49,4 +49,4 @@ I原则
 29. 当几个程序的运行顺序很关键的时候用依赖注入去确保他们的顺序
 30. 所有以上的规范都要在开发环境下严格执行（测试环境和配置环境不属于开发环境）
 
-<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
+<center> Copyright © 2021 天下数学引擎科技（深圳）有限公司 All Rights Reserved</center>

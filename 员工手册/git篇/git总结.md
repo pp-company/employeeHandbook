@@ -8,4 +8,4 @@
 6. 合并分支的时候，使用txt文件可以合并（有冲突也会有提示）、word不可以合并，pdf除了不可以合并之外修改还非常麻烦。
 7. 写完练习题之后需要掌握的知识点：申请github和bitbucket账号、git init、git add、git commit -m（并且要有备注）、git switch -c、git switch、git status、git tag、git checkout、git reset HEAD、git remote add origin、git push -u（第一次） origin master、git clone、git log --graph，了解txt、word、pdf的区别、了解ssh private key。
 
-<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
+<center> Copyright © 2021 天下数学引擎科技（深圳）有限公司 All Rights Reserved</center>

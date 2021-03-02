@@ -124,4 +124,4 @@
 21. 本来要在主分支上分支的，不小心在分支上分支了，要怎么改？
 22. 做了半天发现连任务都理解错了，需要回滚回去，要怎么改？
 
-<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
+<center> Copyright © 2021 天下数学引擎科技（深圳）有限公司 All Rights Reserved</center>

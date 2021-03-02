@@ -18,4 +18,4 @@
     4. 内容接口 必须用形容词，一个接口只有一行内容。但是如果和名字关联匹配高也可以酌情多行。
     5. 组合接口 可以不用形容词，但是不能有内容。
     
-<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
+<center> Copyright © 2021 天下数学引擎科技（深圳）有限公司 All Rights Reserved</center>

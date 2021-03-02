@@ -78,4 +78,4 @@ word和pdf难点在于，得人工去找冲突在哪里，git帮不了任何忙�
     5. `git stash pop` 暂存的改动放回来， 注意有冲突要手动解决
     6. `git cm yyyyyy`
 
-<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
+<center> Copyright © 2021 天下数学引擎科技（深圳）有限公司 All Rights Reserved</center>

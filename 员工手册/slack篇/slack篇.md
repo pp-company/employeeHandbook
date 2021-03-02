@@ -19,4 +19,4 @@
 10. 老板发在#general / #task 里面钉起来的任务，任何人都可以揭榜去挑战。 （从#general取下来 钉到自己的任务表去。）
 11. 如果你希望别人单独回复你某句话，把这句话单独发出来 而不是跟在其他的thread下
 
-<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
+<center> Copyright © 2021 天下数学引擎科技（深圳）有限公司 All Rights Reserved</center>

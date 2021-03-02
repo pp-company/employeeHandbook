@@ -165,4 +165,4 @@ namespace 中重复
         ```
 7. 如果两个方法只差一行怎么办？
         
-<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
+<center> Copyright © 2021 天下数学引擎科技（深圳）有限公司 All Rights Reserved</center>

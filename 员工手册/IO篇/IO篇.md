@@ -15,4 +15,4 @@
 不需要人类阅读修改|BinarySerialize(例:数字签名)|SQL(例:AI分析大数据推荐商品)
 数据有复杂的指针结构|BinarySerialize(树/图结构的数据)|?
 问题:有三个对象，A➡B,B➡C,C➡A,把ABC写到硬盘上，关闭程序，再打开程序，再把ABC读回来，A是否还指向B,B是否还指向C,C是否还指向A?这个就是是否保留指针结构
-<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
+<center> Copyright © 2021 天下数学引擎科技（深圳）有限公司 All Rights Reserved</center>

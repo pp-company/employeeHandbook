@@ -14,4 +14,4 @@
 5. [查看类图](https://blog.csdn.net/zhangpeterx/article/details/97920984),安装完之后如果用不了重启软件或者重启电脑试试
 6. Ctrl+K+C(注释)、Ctrl+K+U(取消注释) 
 
-<center> Copyright © 2020 珠海数镜空时科技有限公司 All Rights Reserved</center>
+<center> Copyright © 2021 天下数学引擎科技（深圳）有限公司 All Rights Reserved</center>
